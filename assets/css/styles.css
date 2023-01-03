@@ -479,6 +479,73 @@ nav li.active a::after {
     color: #FFFFFF;
 }
 
+/* Feature */
+.feature {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.feature .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature .images {
+    display: flex;
+    gap: 30px
+}
+
+.feature .images img {
+    width: 270px;
+    height: 404px; 
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.feature .images img.lower {
+    margin-top: 34px;
+}
+
+.feature .content {
+    width: 41%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature .content .desc {
+    margin-top: 16px;
+    font-size: 1.8rem;
+    line-height: 1.75;
+    color: #5F5B53;
+}
+
+.feature .content .cta-btn {
+    min-width: 137px;
+    margin-top: 32px;
+    color: #fff;
+    background: var(--primary-color);
+}
+
+.feature-2nd {
+    margin-top: 70px;
+}
+
+.feature-2nd .body {
+    flex-direction: row-reverse;
+}
+
+.feature-2nd .content {
+    width: 49%;
+}
+
+.feature-2nd .images img {
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+}
+
 /* Blog */
 .blog {
     margin-top: 135px;
